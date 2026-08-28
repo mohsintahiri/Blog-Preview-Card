@@ -38,3 +38,56 @@ main{
   object-fit: cover;
   border-radius: 10px;
 }
+
+.blog-info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blog-tag{
+  color: #111;
+  font-family: Figtree, sans-serif;
+  font-weight: 800;
+  width: fit-content;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  padding: 4px 12px;
+  background-color: #F4D04E;
+  border-radius: 4px;
+}
+
+.blog-publish-date{
+  color: #111;
+  font-family: Figtree, sans-serif;
+  width: fit-content;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.blog-title{
+  color: #111;
+  font-family: Figtree, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+.blog-title:hover{
+  color: #F4D04E;
+}
+
+.blog-brief{
+  color: #6B6B6B;
+  font-family: Figtree, sans-serif;
+  width: fit-content;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
